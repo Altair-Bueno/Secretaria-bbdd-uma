@@ -111,6 +111,19 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CODIGO" id="A6EB089F-C56F-93B0-60DC-8676A39CBAF7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:32:42 UTC</createdTime>
+<generatorID>985B856B-5DEF-58F3-5407-01BAFC43870E</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>9CB4C98B-9FC8-E80E-EE97-F404DC5BE313</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="84A4D1D1-9A70-89E1-4649-0454B5AA92B6" name="MATRICULA PK">

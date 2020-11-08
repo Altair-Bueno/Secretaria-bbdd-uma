@@ -7,6 +7,8 @@
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
+<nameOnSource>SE LE ASGINAN</nameOnSource>
+<nameOnTarget>SON ASIGNADOS</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

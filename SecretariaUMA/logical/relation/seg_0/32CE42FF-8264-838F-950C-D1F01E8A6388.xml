@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="32CE42FF-8264-838F-950C-D1F01E8A6388">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:28:08 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<sourcePk>39644ABA-1216-4222-063C-0CF0A1298EBD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>SE IMPARTEN</nameOnSource>
+<nameOnTarget>SON IMPARTIDAS</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D63FC0ED-2371-FDD4-164B-C11452AB687D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88581969-C670-0F88-4D87-1B02DF0E755E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

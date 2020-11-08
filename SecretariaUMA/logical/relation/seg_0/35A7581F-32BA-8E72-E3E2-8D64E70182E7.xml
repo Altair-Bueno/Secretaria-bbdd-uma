@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="35A7581F-32BA-8E72-E3E2-8D64E70182E7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:49:04 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<sourcePk>C44204BD-8DEC-D1B6-4A5E-009903B92641</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>FORMADO POR</nameOnSource>
+<nameOnTarget>CONFORMAN</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9044714C-66F6-BE1B-0953-EEE0185697B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88581969-C670-0F88-4D87-1B02DF0E755E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -113,30 +113,41 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CURSO" id="1A138369-BE39-E676-C9BF-96301106B58A">
+<Attribute name="CODIGO" id="AF2D2D58-02D1-D6F6-21E1-C91E8354ACED">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:05:53 UTC</createdTime>
-<generatorID>D22063E1-304F-658F-CB6F-28C5C9DBA382</generatorID>
+<createdTime>2020-11-08 17:28:08 UTC</createdTime>
+<generatorID>32CE42FF-8264-838F-950C-D1F01E8A6388</generatorID>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</referedAttribute>
+<referedAttribute>9CB4C98B-9FC8-E80E-EE97-F404DC5BE313</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LETRA" id="CC83B1A2-7DDC-4CE3-51E0-9DB79656FF9B">
+<Attribute name="CODIGO_DEP" id="46B12F4D-279F-B8BD-2E2A-921513EC9A7C">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:05:53 UTC</createdTime>
-<generatorID>D22063E1-304F-658F-CB6F-28C5C9DBA382</generatorID>
+<createdTime>2020-11-08 17:49:04 UTC</createdTime>
+<generatorID>35A7581F-32BA-8E72-E3E2-8D64E70182E7</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>BE93BAE2-62F8-6C61-74D0-E7D091E06E27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_PLAZAS" id="5EE95C7F-696C-DD77-56FF-6D7701B3D78F">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:53:59 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>48566FAD-E17F-F14C-9F2E-67A6B02E496F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

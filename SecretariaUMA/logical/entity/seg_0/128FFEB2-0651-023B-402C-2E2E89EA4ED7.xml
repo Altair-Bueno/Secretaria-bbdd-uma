@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="128FFEB2-0651-023B-402C-2E2E89EA4ED7" name="HORARIO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:59:43 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Referencia" id="F2862CDC-A493-7633-82AF-32050046B59D">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:00:31 UTC</createdTime>
+<generatorID>DE6E08AB-3CB8-47F8-2ABC-6F77D5E8C72D</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>A83A750D-9CFE-3C18-26E0-F165B5A7FE13</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURSO" id="C575D718-1CB1-BC7D-B894-0AD59D2E2C7A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:00:35 UTC</createdTime>
+<generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LETRA" id="E2B65961-CB1A-A36F-1A81-92C6F88BB72B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:00:35 UTC</createdTime>
+<generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>48566FAD-E17F-F14C-9F2E-67A6B02E496F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="6BF8EFEA-68EC-EA8A-D073-72D722D741D2">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:00:35 UTC</createdTime>
+<generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>E5BFF766-D22E-5A34-2799-BE50B4646F6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_INICIO" id="02132C4C-A08C-1F84-6A80-F0006681AF1C">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:04:37 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_FIN" id="C8590900-3BEF-1865-5C8A-020A8EA3A918">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:04:43 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIA" id="55C2AF8E-9387-CF1A-AE4B-F59D3CB5E5AA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:06:22 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1863E584-13CB-E153-26C0-60C2544E5749" name="HORARIO PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 18:00:28 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2862CDC-A493-7633-82AF-32050046B59D</attributeRef>
+<attributeRef>C575D718-1CB1-BC7D-B894-0AD59D2E2C7A</attributeRef>
+<attributeRef>E2B65961-CB1A-A36F-1A81-92C6F88BB72B</attributeRef>
+<attributeRef>6BF8EFEA-68EC-EA8A-D073-72D722D741D2</attributeRef>
+<attributeRef>02132C4C-A08C-1F84-6A80-F0006681AF1C</attributeRef>
+<attributeRef>C8590900-3BEF-1865-5C8A-020A8EA3A918</attributeRef>
+<attributeRef>55C2AF8E-9387-CF1A-AE4B-F59D3CB5E5AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

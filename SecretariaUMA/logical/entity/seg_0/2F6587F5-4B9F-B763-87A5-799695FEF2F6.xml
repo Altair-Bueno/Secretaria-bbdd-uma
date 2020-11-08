@@ -64,5 +64,18 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CODIGO_DEP" id="1F308227-DD37-0B82-6638-90472109635F">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:47:15 UTC</createdTime>
+<generatorID>37EDB0D2-ABF9-E353-DE27-C9672E2A0E7F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>BE93BAE2-62F8-6C61-74D0-E7D091E06E27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

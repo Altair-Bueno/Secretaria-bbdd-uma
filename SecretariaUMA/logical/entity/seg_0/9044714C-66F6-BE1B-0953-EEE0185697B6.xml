@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35F9966F-BD0E-04B2-D2F0-B18AE4AC5A36" name="GRUPO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9044714C-66F6-BE1B-0953-EEE0185697B6" name="DEPARTAMENTO">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:44:10 UTC</createdTime>
+<createdTime>2020-11-08 17:45:00 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CURSO" id="9114B9DD-6D51-169B-DB8F-A4B78A69CDE8">
+<Attribute name="CODIGO_DEP" id="BE93BAE2-62F8-6C61-74D0-E7D091E06E27">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:45:48 UTC</createdTime>
+<createdTime>2020-11-08 17:45:29 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
@@ -26,44 +26,21 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LETRA" id="48566FAD-E17F-F14C-9F2E-67A6B02E496F">
+<Attribute name="NOMBRE_DEP" id="AB96D93B-2D91-B1EE-9F1F-498432BF3087">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:45:52 UTC</createdTime>
+<createdTime>2020-11-08 17:45:40 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TURNO" id="8495F17B-D6DA-C5A2-E192-B513A575D587">
+<Attribute name="TLF_DEP" id="E07D1C72-38DC-DDF0-FECB-5F8DC2482B9A">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:47:21 UTC</createdTime>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO" id="E5BFF766-D22E-5A34-2799-BE50B4646F6B">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:33:59 UTC</createdTime>
-<generatorID>3D9F6C08-04DF-A1F0-2F62-A2AC3ADBA598</generatorID>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<referedAttribute>9CB4C98B-9FC8-E80E-EE97-F404DC5BE313</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DESCRIPCION" id="948A50C8-BB15-CA12-5CEB-87F46252295F">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 18:04:52 UTC</createdTime>
+<createdTime>2020-11-08 17:46:20 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
@@ -75,18 +52,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="99A6B1C4-FE38-963B-002B-F1C928CA8DD6" name="GRUPO PK">
+<identifier id="C44204BD-8DEC-D1B6-4A5E-009903B92641" name="DEPARTAMENTO PK">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:45:51 UTC</createdTime>
+<createdTime>2020-11-08 17:45:38 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</attributeRef>
-<attributeRef>48566FAD-E17F-F14C-9F2E-67A6B02E496F</attributeRef>
-<attributeRef>E5BFF766-D22E-5A34-2799-BE50B4646F6B</attributeRef>
+<attributeRef>BE93BAE2-62F8-6C61-74D0-E7D091E06E27</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
