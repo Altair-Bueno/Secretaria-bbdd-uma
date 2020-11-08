@@ -44,7 +44,6 @@
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -75,7 +74,7 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Referencia" id="A5F43243-31D0-BCB1-F49E-CE0A6A82F92F">
+<Attribute name="REFERENCIA" id="A5F43243-31D0-BCB1-F49E-CE0A6A82F92F">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:15:30 UTC</createdTime>
 <generatorID>86ADACAA-9335-BE1B-39B5-589D66560954</generatorID>

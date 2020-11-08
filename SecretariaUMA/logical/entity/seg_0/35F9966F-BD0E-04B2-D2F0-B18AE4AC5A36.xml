@@ -26,7 +26,7 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LETRA" id="48566FAD-E17F-F14C-9F2E-67A6B02E496F">
+<Attribute name="NOMBRE_GRUPO" id="48566FAD-E17F-F14C-9F2E-67A6B02E496F">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 16:45:52 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>

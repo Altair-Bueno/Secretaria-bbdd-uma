@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Referencia" id="A83A750D-9CFE-3C18-26E0-F165B5A7FE13">
+<Attribute name="REFERENCIA" id="A83A750D-9CFE-3C18-26E0-F165B5A7FE13">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:37 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
@@ -25,58 +25,53 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="70F73EA0-8FC7-52E1-17FD-9A1331B8F6E8">
+<Attribute name="NOMBRE" id="70F73EA0-8FC7-52E1-17FD-9A1331B8F6E8">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:43 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Caracter" id="9A207B17-CD78-EFEF-FE22-FAE713FEA11E">
+<Attribute name="CARACTER" id="9A207B17-CD78-EFEF-FE22-FAE713FEA11E">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:51 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Creditos" id="974EA463-AA5C-D137-9C2E-DD7F26DBE329">
+<Attribute name="CREDITOS" id="974EA463-AA5C-D137-9C2E-DD7F26DBE329">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:56 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Duracion" id="DA915675-C6A5-1997-EBDC-6662E8643944">
+<Attribute name="DURACION" id="DA915675-C6A5-1997-EBDC-6662E8643944">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:32:00 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Unidad_Temporal" id="9E46A657-194C-3D37-5C1E-F800D0E993AB">
+<Attribute name="UNIDAD_TEMPORAL" id="9E46A657-194C-3D37-5C1E-F800D0E993AB">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:32:02 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -87,22 +82,20 @@
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Primer_Idioma" id="3D192958-02A6-1AB5-C614-D0F60336D7AE">
+<Attribute name="PRIMER_IDIOMA" id="3D192958-02A6-1AB5-C614-D0F60336D7AE">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:32:32 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Segundo_Idioma" id="C13763EA-FB99-4525-FFEE-358241CA1E90">
+<Attribute name="SEGUNDO_IDIOMA" id="C13763EA-FB99-4525-FFEE-358241CA1E90">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:32:40 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
@@ -111,6 +104,17 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_PLAZAS" id="5EE95C7F-696C-DD77-56FF-6D7701B3D78F">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:53:59 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CODIGO" id="AF2D2D58-02D1-D6F6-21E1-C91E8354ACED">
@@ -136,18 +140,6 @@
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
 <referedAttribute>BE93BAE2-62F8-6C61-74D0-E7D091E06E27</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="N_PLAZAS" id="5EE95C7F-696C-DD77-56FF-6D7701B3D78F">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:53:59 UTC</createdTime>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

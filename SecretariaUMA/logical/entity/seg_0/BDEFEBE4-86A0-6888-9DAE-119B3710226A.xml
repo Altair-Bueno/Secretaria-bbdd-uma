@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -34,7 +33,6 @@
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -46,12 +44,11 @@
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Referencia" id="169BBFC6-9A5C-33AB-884A-0F4F5449AB27">
+<Attribute name="REFERENCIA" id="169BBFC6-9A5C-33AB-884A-0F4F5449AB27">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 17:44:22 UTC</createdTime>
 <generatorID>06CEF3E4-7772-BD26-0A4D-DB1C99840F46</generatorID>

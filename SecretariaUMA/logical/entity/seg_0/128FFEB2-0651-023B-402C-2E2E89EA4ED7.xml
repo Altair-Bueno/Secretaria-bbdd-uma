@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Referencia" id="F2862CDC-A493-7633-82AF-32050046B59D">
+<Attribute name="REFERENCIA" id="F2862CDC-A493-7633-82AF-32050046B59D">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:00:31 UTC</createdTime>
 <generatorID>DE6E08AB-3CB8-47F8-2ABC-6F77D5E8C72D</generatorID>
@@ -40,7 +40,7 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LETRA" id="E2B65961-CB1A-A36F-1A81-92C6F88BB72B">
+<Attribute name="NOMBRE_GRUPO" id="E2B65961-CB1A-A36F-1A81-92C6F88BB72B">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:00:35 UTC</createdTime>
 <generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="37EDB0D2-ABF9-E353-DE27-C9672E2A0E7F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROFESORADO" directorySegmentName="seg_0" id="37EDB0D2-ABF9-E353-DE27-C9672E2A0E7F">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 17:47:15 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
@@ -9,6 +9,7 @@
 <sourcePk>C44204BD-8DEC-D1B6-4A5E-009903B92641</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>FORMADO POR</nameOnSource>
+<nameOnTarget>CONFORMA</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
