@@ -4,4 +4,3 @@
 
 - [Enunciado del problema](Enunciado/)
 - [Modelo relacional Oracle Datamodeler](SecretariaUMA.dmd)
-hh
