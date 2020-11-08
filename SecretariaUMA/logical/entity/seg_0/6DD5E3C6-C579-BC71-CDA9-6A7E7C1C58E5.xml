@@ -15,17 +15,54 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ATRIB. DE PRUEBA" id="539B222A-3A75-2B4D-B2AF-B5D49DB6E890">
+<Attribute name="TURNO_PREFERENTE" id="8914BA47-4E5C-AAD1-75D7-F450A93C0DF8">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 15:40:52 UTC</createdTime>
+<createdTime>2020-11-08 16:47:44 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_REALIZACION" id="BD1C21B9-EF75-B2C0-9B0A-28FE43B31BB7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:48:09 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="B7DFC179-F2A4-07A3-8CFC-2F1F6C09AA27">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:56:02 UTC</createdTime>
+<generatorID>BF9BC9B4-DDD7-7365-F45B-A6E03A9DE985</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>E80AB1E4-1E50-881A-84BD-FE41057A4996</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCC3A6E7-BE20-2997-D6CB-761BB1582728" name="ENCUESTA PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:56:02 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7DFC179-F2A4-07A3-8CFC-2F1F6C09AA27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

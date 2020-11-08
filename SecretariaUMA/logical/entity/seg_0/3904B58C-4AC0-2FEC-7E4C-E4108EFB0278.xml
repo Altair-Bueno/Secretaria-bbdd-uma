@@ -14,4 +14,129 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N_EXPEDIENTE" id="249EBDAD-5B2C-0566-41F6-120E8FDD8BC6">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:22:56 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_ARCHIVO" id="A9BD4E76-45F8-1F6D-AAB3-C49FE3935DAA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:24:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA MATRICULA" id="966355FD-3491-9C4F-E20D-2E90488619BA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:28:38 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURNO_PREFERENTE" id="42D73A90-31B8-00CA-0CE1-85AC36218D0B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:28:59 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURSO_ACADEMICO" id="5596C544-FFBA-3D50-9BAC-93D1B7CF122B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:32:12 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METODO_PAGO" id="9679B5A1-4EEB-0BE0-EFC3-E52161C4C780">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:32:52 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_REALIZACION_PAGO" id="47D3B09C-BC01-A512-DB03-2F2166A7BAE1">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:33:01 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="B04B105C-4AF8-4FE6-8370-14AC41011FEC">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:01:04 UTC</createdTime>
+<generatorID>FDAF187E-8371-278C-36E2-27B6AA441F7E</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>E80AB1E4-1E50-881A-84BD-FE41057A4996</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84A4D1D1-9A70-89E1-4649-0454B5AA92B6" name="MATRICULA PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:23:49 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>249EBDAD-5B2C-0566-41F6-120E8FDD8BC6</attributeRef>
+<attributeRef>B04B105C-4AF8-4FE6-8370-14AC41011FEC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F53B6B4D-BB6A-E33C-7F83-E07642B36A92" name="N_ARCHIVO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:24:14 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<newElementsIDs>A9BD4E76-45F8-1F6D-AAB3-C49FE3935DAA</newElementsIDs>
+<usedAttributes>
+<attributeRef>A9BD4E76-45F8-1F6D-AAB3-C49FE3935DAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

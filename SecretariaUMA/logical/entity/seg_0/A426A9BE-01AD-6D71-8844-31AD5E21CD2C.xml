@@ -14,4 +14,55 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="E80AB1E4-1E50-881A-84BD-FE41057A4996">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:09:50 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE COMPLETO" id="DABB7645-30DE-BC0B-B335-E739FCFC5731">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:09:12 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL INSTITUCIONAL" id="B36DE888-5D7A-02BD-9583-51B8B9FDB92F">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:09:53 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7F7AC64-05B3-5EB9-C943-F29AA1C18C0C" name="COMUNIDAD_UNIVERSITARIA PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:09:52 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E80AB1E4-1E50-881A-84BD-FE41057A4996</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

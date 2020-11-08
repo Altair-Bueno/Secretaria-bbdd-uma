@@ -15,4 +15,56 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMAIL PERSONAL" id="3DF7FFBF-90BC-AB20-A66D-EA89B192A6FC">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:19:48 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLF_MOVIL" id="E0B59600-C94C-2095-5108-B4036A10DAC9">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:30:15 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLF_FIJO" id="A3EA30DA-883F-D85D-9803-F36622E79F6A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:31:04 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31E49C7E-34CD-DCF8-6CFC-3FDF26F89CCD" name="EMAIL_PERSONAL">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 16:20:12 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<newElementsIDs>3DF7FFBF-90BC-AB20-A66D-EA89B192A6FC</newElementsIDs>
+<usedAttributes>
+<attributeRef>3DF7FFBF-90BC-AB20-A66D-EA89B192A6FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

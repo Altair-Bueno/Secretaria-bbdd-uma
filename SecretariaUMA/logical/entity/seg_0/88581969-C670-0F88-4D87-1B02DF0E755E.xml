@@ -15,28 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Ofertada" id="436D11D5-4639-3801-5FEB-DCE7381A3A18">
-<createdBy>compux72</createdBy>
-<createdTime>2020-11-07 21:31:23 UTC</createdTime>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Codigo" id="E5645C34-FF02-74B1-67C3-F78807FD2C12">
-<createdBy>compux72</createdBy>
-<createdTime>2020-11-07 21:31:32 UTC</createdTime>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Referencia" id="A83A750D-9CFE-3C18-26E0-F165B5A7FE13">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:37 UTC</createdTime>
@@ -50,17 +28,6 @@
 <Attribute name="Nombre" id="70F73EA0-8FC7-52E1-17FD-9A1331B8F6E8">
 <createdBy>compux72</createdBy>
 <createdTime>2020-11-07 21:31:43 UTC</createdTime>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Curso" id="E340FCF4-0D66-1351-28D6-0360D57E4C39">
-<createdBy>compux72</createdBy>
-<createdTime>2020-11-07 21:31:47 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
 <item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
@@ -144,6 +111,34 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURSO" id="1A138369-BE39-E676-C9BF-96301106B58A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:05:53 UTC</createdTime>
+<generatorID>D22063E1-304F-658F-CB6F-28C5C9DBA382</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LETRA" id="CC83B1A2-7DDC-4CE3-51E0-9DB79656FF9B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-08 17:05:53 UTC</createdTime>
+<generatorID>D22063E1-304F-658F-CB6F-28C5C9DBA382</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>48566FAD-E17F-F14C-9F2E-67A6B02E496F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
