@@ -24,7 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA_REALIZACION" id="BD1C21B9-EF75-B2C0-9B0A-28FE43B31BB7">
 <createdBy>Jota</createdBy>
@@ -35,11 +37,12 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DNI" id="B7DFC179-F2A4-07A3-8CFC-2F1F6C09AA27">
+<Attribute name="DNI" id="3A92CA99-7474-2A2E-9F65-C19E8DE3990C">
 <createdBy>Jota</createdBy>
-<createdTime>2020-11-08 16:56:02 UTC</createdTime>
+<createdTime>2020-11-09 17:36:54 UTC</createdTime>
 <generatorID>BF9BC9B4-DDD7-7365-F45B-A6E03A9DE985</generatorID>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
 <engineerTo>
@@ -48,6 +51,8 @@
 <referedAttribute>E80AB1E4-1E50-881A-84BD-FE41057A4996</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -61,7 +66,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B7DFC179-F2A4-07A3-8CFC-2F1F6C09AA27</attributeRef>
+<attributeRef>3A92CA99-7474-2A2E-9F65-C19E8DE3990C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

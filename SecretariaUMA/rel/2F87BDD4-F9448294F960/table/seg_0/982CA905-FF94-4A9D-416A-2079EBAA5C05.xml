@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="982CA905-FF94-4A9D-416A-2079EBAA5C05" name="ALUMNO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>3378F0F7-A176-1A9C-20B5-FDBFB74355F5</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="76855E45-7238-66B5-1B03-6A7A52A23080">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>E80AB1E4-1E50-881A-84BD-FE41057A4996</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9542ABE5-01E8-9D14-6E67-2E30FD909495" referredColumn="74FA6AF1-0C01-D43D-4AC6-9BB3BF6F0361"/>
+</associations>
+</Column>
+<Column name="EMAIL_PERSONAL" id="2BCADC07-FC58-D7E4-3CA7-140F2F8AD6CF">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>3DF7FFBF-90BC-AB20-A66D-EA89B192A6FC</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLF_MOVIL" id="7E7FBBD9-290A-6F08-00AF-4BA3839368A6">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>E0B59600-C94C-2095-5108-B4036A10DAC9</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLF_FIJO" id="B3B9EC63-6D04-8647-F038-C7F1CBEA574D">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>A3EA30DA-883F-D85D-9803-F36622E79F6A</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BC2293E-F1E2-8886-4FFB-8DCE34D9C3B6" name="ALUMNO_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>B7F7AC64-05B3-5EB9-C943-F29AA1C18C0C</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76855E45-7238-66B5-1B03-6A7A52A23080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB893A79-95E6-7A29-C4DB-E93F80C3DB8F" name="ALUMNO_EMAIL_PERSONAL_UN">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>31E49C7E-34CD-DCF8-6CFC-3FDF26F89CCD</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BCADC07-FC58-D7E4-3CA7-140F2F8AD6CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="221340C8-6664-64D0-1584-F8677F3C2054" name="ALUMNO_COMUNIDAD_UNIVERSITARIA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>24F2B2DD-5A46-FDC9-5386-0288C918D638</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76855E45-7238-66B5-1B03-6A7A52A23080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -24,7 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="N_ARCHIVO" id="A9BD4E76-45F8-1F6D-AAB3-C49FE3935DAA">
 <createdBy>Jota</createdBy>
@@ -36,7 +38,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA MATRICULA" id="966355FD-3491-9C4F-E20D-2E90488619BA">
 <createdBy>Jota</createdBy>
@@ -48,6 +52,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TURNO_PREFERENTE" id="42D73A90-31B8-00CA-0CE1-85AC36218D0B">
@@ -59,7 +64,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CURSO_ACADEMICO" id="5596C544-FFBA-3D50-9BAC-93D1B7CF122B">
 <createdBy>Jota</createdBy>
@@ -70,7 +77,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="METODO_PAGO" id="9679B5A1-4EEB-0BE0-EFC3-E52161C4C780">
 <createdBy>Jota</createdBy>
@@ -81,7 +90,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA_REALIZACION_PAGO" id="47D3B09C-BC01-A512-DB03-2F2166A7BAE1">
 <createdBy>Jota</createdBy>
@@ -93,19 +104,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DNI" id="B04B105C-4AF8-4FE6-8370-14AC41011FEC">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:01:04 UTC</createdTime>
-<generatorID>FDAF187E-8371-278C-36E2-27B6AA441F7E</generatorID>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<referedAttribute>E80AB1E4-1E50-881A-84BD-FE41057A4996</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CODIGO" id="A6EB089F-C56F-93B0-60DC-8676A39CBAF7">
@@ -119,6 +118,23 @@
 <referedAttribute>9CB4C98B-9FC8-E80E-EE97-F404DC5BE313</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="D934288F-58FC-6A97-D544-D272B8448DE1">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 17:36:54 UTC</createdTime>
+<generatorID>FDAF187E-8371-278C-36E2-27B6AA441F7E</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<engineerTo>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+</engineerTo>
+<referedAttribute>E80AB1E4-1E50-881A-84BD-FE41057A4996</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -133,7 +149,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>249EBDAD-5B2C-0566-41F6-120E8FDD8BC6</attributeRef>
-<attributeRef>B04B105C-4AF8-4FE6-8370-14AC41011FEC</attributeRef>
+<attributeRef>D934288F-58FC-6A97-D544-D272B8448DE1</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="F53B6B4D-BB6A-E33C-7F83-E07642B36A92" name="N_ARCHIVO">

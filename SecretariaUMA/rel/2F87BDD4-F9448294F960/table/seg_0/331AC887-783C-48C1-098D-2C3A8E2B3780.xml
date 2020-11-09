@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="331AC887-783C-48C1-098D-2C3A8E2B3780" name="ACTA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>8DC18D9E-A92C-6556-4648-3C83BF117D3F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTA_NUMERICA" id="881E1F48-1D40-5C68-0A89-9CCCD8B89502">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>39ABBE04-C3E8-59F9-3F2A-8F5880F57B5B</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_CUALITATIVA" id="04F8E79F-CF21-9B1A-87E4-D32E32403401">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>120E0632-9EFF-6D41-BFA2-EB57650852B2</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_CONVOCATORIA" id="34F666B7-FFBA-F3CC-7D22-0526C3E74E62">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>2EE72389-4A53-66BD-7CD9-8EAED32F7FDB</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRICULA_N_EXPEDIENTE" id="17D75FDF-AF37-AD2E-11AC-7225D6A7A364">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>9C2AB730-F6A2-0751-1950-FC736BE9D046</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441DE76A-7BB8-CE16-D952-298064865C4F" referredColumn="81753524-AB33-A98B-3350-EBD32E0AA4D9"/>
+</associations>
+</Column>
+<Column name="ASIGNATURA_REFERENCIA" id="8FEBB401-29E9-61C7-3314-7667125B507E">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>A5F43243-31D0-BCB1-F49E-CE0A6A82F92F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5095858-7BF7-3EC8-7EC0-5A95E4A5AEEF" referredColumn="8CC10308-B872-5DBB-F488-D748AABDD45D"/>
+</associations>
+</Column>
+<Column name="MATRICULA_DNI" id="053F3147-199E-3A6D-6A3F-B50703AC277C">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>65B83C43-19D4-408B-5D5E-73ACCA3B3B48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441DE76A-7BB8-CE16-D952-298064865C4F" referredColumn="1F86CF33-375C-2403-0FD7-416583162B03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75C16B73-B6DE-7351-EDAC-A55E8091B762" name="ACTA_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>A736A1F6-B0E1-699D-8F2A-81C25A631804</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D75FDF-AF37-AD2E-11AC-7225D6A7A364"/>
+<colUsage columnID="8FEBB401-29E9-61C7-3314-7667125B507E"/>
+<colUsage columnID="053F3147-199E-3A6D-6A3F-B50703AC277C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0E8F319-81C4-E484-EB11-9931F84FD707" name="ACTA_MATRICULA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>C0E358D6-841D-5EB9-F92C-6295834092F8</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D75FDF-AF37-AD2E-11AC-7225D6A7A364"/>
+<colUsage columnID="053F3147-199E-3A6D-6A3F-B50703AC277C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9416A764-3302-9F06-D741-38E7859E2F01" name="ACTA_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-11-09 18:06:20 UTC</createdTime>
+<generatorID>86ADACAA-9335-BE1B-39B5-589D66560954</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FEBB401-29E9-61C7-3314-7667125B507E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
