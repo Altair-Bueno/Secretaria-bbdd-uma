@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 20.2.0.167.1538
---   en:        2020-12-06 17:50:19 CET
+--   en:        2020-12-06 18:17:05 CET
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -15,7 +15,8 @@ CREATE TABLE acta (
     n_convocatoria          NUMBER(1) NOT NULL,
     matricula_n_expediente  VARCHAR2(15) NOT NULL,
     asignatura_referencia   VARCHAR2(6) NOT NULL,
-    matricula_dni           VARCHAR2(10) NOT NULL
+    matricula_dni           VARCHAR2(10) NOT NULL,
+    ano_acta                VARCHAR2(10) NOT NULL
 );
 
 ALTER TABLE acta
