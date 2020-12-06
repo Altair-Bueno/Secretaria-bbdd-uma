@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0287CA87-7770-7D20-655B-74341BECB9C3" containerWithKeyObject="A4068B6A-9202-93A7-322B-FB0FAC72D1A8" localFKIndex="7867259E-12CE-F5AB-FD4E-31EB3F996F5A" name="HORARIO_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>DE6E08AB-3CB8-47F8-2ABC-6F77D5E8C72D</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<referredTableLongName>ASIGNATURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9FEE7A9-A0C2-17CE-B189-A2BF2C737FE7</referredTableID>
+<keyObject>C9C0CC05-0C5F-6A6A-7A08-E75EDDC13429</keyObject>
+<referredKeyID>C9C0CC05-0C5F-6A6A-7A08-E75EDDC13429</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>REFERENCIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

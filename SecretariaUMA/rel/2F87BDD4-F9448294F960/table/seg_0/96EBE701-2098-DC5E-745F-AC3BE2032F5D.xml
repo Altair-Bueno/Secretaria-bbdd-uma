@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96EBE701-2098-DC5E-745F-AC3BE2032F5D" name="ACTA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>8DC18D9E-A92C-6556-4648-3C83BF117D3F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTA_NUMERICA" id="36402D03-D73A-0021-937C-899E4E2CEFF7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>39ABBE04-C3E8-59F9-3F2A-8F5880F57B5B</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_CUALITATIVA" id="44DF685D-15FE-D214-621A-867628641B8A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>120E0632-9EFF-6D41-BFA2-EB57650852B2</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_CONVOCATORIA" id="2C8AC275-BB73-DA9D-64B3-75580BED2FB7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>2EE72389-4A53-66BD-7CD9-8EAED32F7FDB</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRICULA_N_EXPEDIENTE" id="DB422E7E-B4B6-52E2-141A-9061874DCA14">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>9C2AB730-F6A2-0751-1950-FC736BE9D046</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DA32FFE-6909-F4AE-FF23-026B0397C712" referredColumn="6B5D00D8-9748-0BC4-21D2-0C1DDDE60B2B"/>
+</associations>
+</Column>
+<Column name="ASIGNATURA_REFERENCIA" id="4C0482B8-D622-2709-EF16-7229BE5CA7DA">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>A5F43243-31D0-BCB1-F49E-CE0A6A82F92F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="157DA628-AD37-1AEF-9164-F41775CDD1A1" referredColumn="DDDB115F-502E-7CB8-70E7-4B7614F1D1C0"/>
+</associations>
+</Column>
+<Column name="MATRICULA_ALUMNO_DNI" id="8AFC9AD1-463B-F8F1-83B4-C7CC870B3320">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>65B83C43-19D4-408B-5D5E-73ACCA3B3B48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DA32FFE-6909-F4AE-FF23-026B0397C712" referredColumn="623F71A1-2F45-355D-CF5B-A70BB66819B3"/>
+</associations>
+</Column>
+<Column name="ANO_ACTA" id="EE43D2B8-AD86-3022-2518-DF849F8B1ADE">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>43BF9B2C-B8BF-B361-5E21-9A8722D4FB55</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC22B590-D21B-179C-352A-6631EE8AE25E" name="ACTA_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>A736A1F6-B0E1-699D-8F2A-81C25A631804</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB422E7E-B4B6-52E2-141A-9061874DCA14"/>
+<colUsage columnID="8AFC9AD1-463B-F8F1-83B4-C7CC870B3320"/>
+<colUsage columnID="4C0482B8-D622-2709-EF16-7229BE5CA7DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC3907D-DC05-4E0A-2C59-66EDE2C12777" name="ACTA_MATRICULA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>C0E358D6-841D-5EB9-F92C-6295834092F8</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB422E7E-B4B6-52E2-141A-9061874DCA14"/>
+<colUsage columnID="8AFC9AD1-463B-F8F1-83B4-C7CC870B3320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B13FA0BE-6E0C-A9EE-A06E-297BB2559326" name="ACTA_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>86ADACAA-9335-BE1B-39B5-589D66560954</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C0482B8-D622-2709-EF16-7229BE5CA7DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
