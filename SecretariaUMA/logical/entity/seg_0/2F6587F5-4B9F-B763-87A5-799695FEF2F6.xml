@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CURSO ACADÉMICO" id="CB621E0E-6E2B-4BF7-36C5-14AA4117CA9C">
+<Attribute name="CURSO ACADEMICO" id="CB621E0E-6E2B-4BF7-36C5-14AA4117CA9C">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 16:11:19 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
@@ -29,7 +29,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TITULACIÓN" id="7964F941-5329-3164-3522-139A785A1E91">
+<Attribute name="TITULACION" id="7964F941-5329-3164-3522-139A785A1E91">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 16:11:23 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
@@ -42,7 +42,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CATEGORÍA ADMINISTRATIVA" id="1CFDBAD8-BA06-5078-F6B6-C039B972CB00">
+<Attribute name="CATEGORIA ADMINISTRATIVA" id="1CFDBAD8-BA06-5078-F6B6-C039B972CB00">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 16:12:04 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>

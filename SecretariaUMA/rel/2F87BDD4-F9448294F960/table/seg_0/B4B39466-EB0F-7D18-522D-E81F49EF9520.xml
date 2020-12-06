@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4B39466-EB0F-7D18-522D-E81F49EF9520" name="GRUPO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>35F9966F-BD0E-04B2-D2F0-B18AE4AC5A36</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CURSO" id="9F61D249-2FD7-568B-7DE6-E91088EE5567">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GRUPO" id="CEC4BC94-98D4-7FFD-36B0-C23B035E2317">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>48566FAD-E17F-F14C-9F2E-67A6B02E496F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURNO" id="D3DFA64E-8668-24F2-74D1-C28587273F69">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>8495F17B-D6DA-C5A2-E192-B513A575D587</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="AE231927-440B-8607-C630-CEE91E790A02">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>948A50C8-BB15-CA12-5CEB-87F46252295F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B28C46F8-DA43-D51D-E8DC-4AAA3E772512" name="GRUPO_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>99A6B1C4-FE38-963B-002B-F1C928CA8DD6</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F61D249-2FD7-568B-7DE6-E91088EE5567"/>
+<colUsage columnID="CEC4BC94-98D4-7FFD-36B0-C23B035E2317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

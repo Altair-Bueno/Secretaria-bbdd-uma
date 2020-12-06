@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CURSO" id="C575D718-1CB1-BC7D-B894-0AD59D2E2C7A">
 <createdBy>Jota</createdBy>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOMBRE_GRUPO" id="E2B65961-CB1A-A36F-1A81-92C6F88BB72B">
 <createdBy>Jota</createdBy>
@@ -58,22 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CODIGO" id="6BF8EFEA-68EC-EA8A-D073-72D722D741D2">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 18:00:35 UTC</createdTime>
-<generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<referedAttribute>E5BFF766-D22E-5A34-2799-BE50B4646F6B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="HORA_INICIO" id="02132C4C-A08C-1F84-6A80-F0006681AF1C">
 <createdBy>Jota</createdBy>
@@ -118,23 +103,24 @@
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:00:28 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F2862CDC-A493-7633-82AF-32050046B59D</attributeRef>
 <attributeRef>C575D718-1CB1-BC7D-B894-0AD59D2E2C7A</attributeRef>
 <attributeRef>E2B65961-CB1A-A36F-1A81-92C6F88BB72B</attributeRef>
-<attributeRef>6BF8EFEA-68EC-EA8A-D073-72D722D741D2</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="F885E5B2-503A-21FB-1C74-980CB511BA09" name="DIA_CLAVE">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-09 17:53:53 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="false"/>
 </engineerTo>
 <newElementsIDs>55C2AF8E-9387-CF1A-AE4B-F59D3CB5E5AA,02132C4C-A08C-1F84-6A80-F0006681AF1C,C8590900-3BEF-1865-5C8A-020A8EA3A918,439BA031-9F25-6938-4070-281884884D48</newElementsIDs>
 <usedAttributes>
@@ -143,7 +129,6 @@
 <attributeRef>C8590900-3BEF-1865-5C8A-020A8EA3A918</attributeRef>
 <attributeRef>C575D718-1CB1-BC7D-B894-0AD59D2E2C7A</attributeRef>
 <attributeRef>E2B65961-CB1A-A36F-1A81-92C6F88BB72B</attributeRef>
-<attributeRef>6BF8EFEA-68EC-EA8A-D073-72D722D741D2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

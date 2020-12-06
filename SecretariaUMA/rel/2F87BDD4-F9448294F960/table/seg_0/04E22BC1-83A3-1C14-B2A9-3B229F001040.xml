@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E22BC1-83A3-1C14-B2A9-3B229F001040" name="HORARIO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>128FFEB2-0651-023B-402C-2E2E89EA4ED7</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ASIGNATURA_REFERENCIA" id="A82E6C75-47DE-E9CD-701C-1665B6BA8D83">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>F2862CDC-A493-7633-82AF-32050046B59D</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="336728C4-E91D-9CCF-5901-6996FB3165F9" referredColumn="324CD9F0-788A-A187-8823-0C58658EB23C"/>
+</associations>
+</Column>
+<Column name="GRUPO_CURSO" id="357F8783-FA71-8C97-3644-252A532BA040">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>C575D718-1CB1-BC7D-B894-0AD59D2E2C7A</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B39C6207-71D8-2425-7266-29155162C3CD" referredColumn="9F61D249-2FD7-568B-7DE6-E91088EE5567"/>
+</associations>
+</Column>
+<Column name="GRUPO_NOMBRE_GRUPO" id="402BB43C-7668-8CA5-5713-C6C7A0EB4DE9">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>E2B65961-CB1A-A36F-1A81-92C6F88BB72B</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B39C6207-71D8-2425-7266-29155162C3CD" referredColumn="CEC4BC94-98D4-7FFD-36B0-C23B035E2317"/>
+</associations>
+</Column>
+<Column name="HORA_INICIO" id="41CCAB7A-6811-9028-916A-B5C77E9F912A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>02132C4C-A08C-1F84-6A80-F0006681AF1C</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_FIN" id="EA78AED0-FDE5-9274-A07C-BDFA58FE635E">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>C8590900-3BEF-1865-5C8A-020A8EA3A918</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIA" id="BB5F1566-7004-9C4C-4992-89056E3CADD0">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>55C2AF8E-9387-CF1A-AE4B-F59D3CB5E5AA</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3665E3D5-7C60-DB57-1AEA-0F3B30AFF689" name="HORARIO_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>1863E584-13CB-E153-26C0-60C2544E5749</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82E6C75-47DE-E9CD-701C-1665B6BA8D83"/>
+<colUsage columnID="357F8783-FA71-8C97-3644-252A532BA040"/>
+<colUsage columnID="402BB43C-7668-8CA5-5713-C6C7A0EB4DE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FE9839C-8E07-DA2E-B2DF-A6254F26B267" name="HORARIO_UK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>F885E5B2-503A-21FB-1C74-980CB511BA09</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB5F1566-7004-9C4C-4992-89056E3CADD0"/>
+<colUsage columnID="41CCAB7A-6811-9028-916A-B5C77E9F912A"/>
+<colUsage columnID="EA78AED0-FDE5-9274-A07C-BDFA58FE635E"/>
+<colUsage columnID="357F8783-FA71-8C97-3644-252A532BA040"/>
+<colUsage columnID="402BB43C-7668-8CA5-5713-C6C7A0EB4DE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="721DDC4A-902A-E0C9-8ECF-F952BB5039C8" name="HORARIO_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>DE6E08AB-3CB8-47F8-2ABC-6F77D5E8C72D</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82E6C75-47DE-E9CD-701C-1665B6BA8D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EAF5FE1-6721-2963-6E07-CC82DBB0A967" name="HORARIO_GRUPO_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>439BA031-9F25-6938-4070-281884884D48</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="357F8783-FA71-8C97-3644-252A532BA040"/>
+<colUsage columnID="402BB43C-7668-8CA5-5713-C6C7A0EB4DE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

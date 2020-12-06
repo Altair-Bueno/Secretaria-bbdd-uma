@@ -68,7 +68,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="REFERENCIA" id="A5F43243-31D0-BCB1-F49E-CE0A6A82F92F">
 <createdBy>Jota</createdBy>
@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DNI" id="65B83C43-19D4-408B-5D5E-73ACCA3B3B48">
 <createdBy>Jota</createdBy>
@@ -98,7 +98,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -106,14 +106,15 @@
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:15:03 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9C2AB730-F6A2-0751-1950-FC736BE9D046</attributeRef>
-<attributeRef>A5F43243-31D0-BCB1-F49E-CE0A6A82F92F</attributeRef>
 <attributeRef>65B83C43-19D4-408B-5D5E-73ACCA3B3B48</attributeRef>
+<attributeRef>A5F43243-31D0-BCB1-F49E-CE0A6A82F92F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

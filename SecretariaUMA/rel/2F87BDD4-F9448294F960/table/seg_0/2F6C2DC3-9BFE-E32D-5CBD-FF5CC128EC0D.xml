@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F6C2DC3-9BFE-E32D-5CBD-FF5CC128EC0D" name="ALFIL">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>BDEFEBE4-86A0-6888-9DAE-119B3710226A</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCENCIA" id="F8EB0235-5553-F9DE-271D-F2966FD30DFF">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>76A96DB0-107F-421C-8FED-40BAAA9C74F8</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRMA_ACTA" id="1ADC7BDA-7ABA-2429-B3A0-425975CBC3B9">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>AA1FCC2B-B28F-8088-27A3-3E78EB549983</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES_COORDINADOR" id="3CED29F6-0ABC-F858-0AAD-275C56C4C4A5">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>0E9EE522-3A7B-3DC4-16C9-BA3B298E587D</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASIGNATURA_REFERENCIA" id="DB007058-B18A-C4AB-59E8-7893DC9BC04D">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>169BBFC6-9A5C-33AB-884A-0F4F5449AB27</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F0DE213-8B3A-7305-9798-FA6DB1765CC7" referredColumn="324CD9F0-788A-A187-8823-0C58658EB23C"/>
+</associations>
+</Column>
+<Column name="PROFESOR_DNI" id="DAD2C5DE-A73E-3BCB-4606-9925D631E4D7">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>16C17210-72BA-F1B1-C8C9-398F549EF019</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B268DC1C-6E29-5ACC-364F-44F7E9B1E884" referredColumn="7519AC74-E5B4-B34E-A232-B515AB2C9782"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C47879F-8FB8-7BDC-0B55-5C6B206DA1B2" name="ALFIL_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>478C6704-5428-4700-90AE-F0143320A696</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB007058-B18A-C4AB-59E8-7893DC9BC04D"/>
+<colUsage columnID="DAD2C5DE-A73E-3BCB-4606-9925D631E4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2143E39-FD10-F560-F3FB-5D3D82EF4491" name="ALFIL_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>06CEF3E4-7772-BD26-0A4D-DB1C99840F46</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB007058-B18A-C4AB-59E8-7893DC9BC04D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF6E5D59-4658-9D62-9464-195959671505" name="ALFIL_PROFESOR_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>6E4995BA-BD41-11B9-72E7-5AE774679283</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD2C5DE-A73E-3BCB-4606-9925D631E4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

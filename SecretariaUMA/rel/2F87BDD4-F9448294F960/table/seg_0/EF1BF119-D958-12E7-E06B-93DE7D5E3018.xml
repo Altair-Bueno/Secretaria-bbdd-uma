@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF1BF119-D958-12E7-E06B-93DE7D5E3018" name="ELIGE">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ASIGNATURA_REFERENCIA" id="A7162791-2DA7-F8BF-B255-3B88F7F04187">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BE4690-B659-36FC-7AE3-BC770B694FA1" referredColumn="324CD9F0-788A-A187-8823-0C58658EB23C"/>
+</associations>
+</Column>
+<Column name="ENCUESTA_ALUMNO_DNI" id="6D37E264-BAB1-4A7F-3826-02ED31DB180F">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2705669B-71D4-F466-FFA6-B211830D5331" referredColumn="A7005D5D-6839-3950-8D1E-DCF812AD6924"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46F9383C-F2A7-3645-4F61-BA6E34CCA6AD" name="ELIGE_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7162791-2DA7-F8BF-B255-3B88F7F04187"/>
+<colUsage columnID="6D37E264-BAB1-4A7F-3826-02ED31DB180F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A3D3DBC-5259-A484-7D01-A11F32301C2A" name="ELIGE_ASIGNATURA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>5DEB71DA-EDE1-193D-C174-41B8B21DC427</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7162791-2DA7-F8BF-B255-3B88F7F04187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDD490C8-C684-67E0-4A98-46277364A1BB" name="ELIGE_ENCUESTA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 16:48:06 UTC</createdTime>
+<generatorID>5DEB71DA-EDE1-193D-C174-41B8B21DC427</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D37E264-BAB1-4A7F-3826-02ED31DB180F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

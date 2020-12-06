@@ -54,21 +54,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO" id="E5BFF766-D22E-5A34-2799-BE50B4646F6B">
-<createdBy>Jota</createdBy>
-<createdTime>2020-11-08 17:33:59 UTC</createdTime>
-<generatorID>3D9F6C08-04DF-A1F0-2F62-A2AC3ADBA598</generatorID>
-<ownerDesignName>SecretariaUMA</ownerDesignName>
-<engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
-</engineerTo>
-<referedAttribute>9CB4C98B-9FC8-E80E-EE97-F404DC5BE313</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DESCRIPCION" id="948A50C8-BB15-CA12-5CEB-87F46252295F">
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 18:04:52 UTC</createdTime>
@@ -89,14 +74,14 @@
 <createdBy>Jota</createdBy>
 <createdTime>2020-11-08 16:45:51 UTC</createdTime>
 <ownerDesignName>SecretariaUMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="true"/>
+<item key="2F87BDD4-7DFC-AFE9-2C2E-F9448294F960" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9114B9DD-6D51-169B-DB8F-A4B78A69CDE8</attributeRef>
 <attributeRef>48566FAD-E17F-F14C-9F2E-67A6B02E496F</attributeRef>
-<attributeRef>E5BFF766-D22E-5A34-2799-BE50B4646F6B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
