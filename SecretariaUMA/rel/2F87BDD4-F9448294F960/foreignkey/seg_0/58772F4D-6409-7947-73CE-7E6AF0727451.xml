@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58772F4D-6409-7947-73CE-7E6AF0727451" containerWithKeyObject="D8E0ACB1-7074-F532-ABC7-D398F65F0F20" localFKIndex="68C8CF35-8BCD-27EA-641F-991F143D5368" name="COMPANEROS_GRUPO_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>6318DA2B-2976-96DF-AA92-64F2D9D5A255</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<referredTableLongName>GRUPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>888C2B6C-B523-195A-5FAF-2AA8576F0402</referredTableID>
+<keyObject>3010F72C-3E9F-9B17-9590-5CB6AA216251</keyObject>
+<referredKeyID>3010F72C-3E9F-9B17-9590-5CB6AA216251</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CURSO,NOMBRE_GRUPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

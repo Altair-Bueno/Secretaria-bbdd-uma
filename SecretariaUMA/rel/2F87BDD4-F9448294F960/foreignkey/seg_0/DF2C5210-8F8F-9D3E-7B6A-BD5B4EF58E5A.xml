@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF2C5210-8F8F-9D3E-7B6A-BD5B4EF58E5A" containerWithKeyObject="D8E0ACB1-7074-F532-ABC7-D398F65F0F20" localFKIndex="6D0593A8-4108-37FB-0247-FBE7453A6789" name="COMPANEROS_MATRICULA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>6318DA2B-2976-96DF-AA92-64F2D9D5A255</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<referredTableLongName>MATRICULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5091357-6935-D89A-F216-05D36A3393C2</referredTableID>
+<keyObject>A9022A77-4BD0-62A2-6FAD-E5CA20155548</keyObject>
+<referredKeyID>A9022A77-4BD0-62A2-6FAD-E5CA20155548</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>N_EXPEDIENTE,ALUMNO_DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

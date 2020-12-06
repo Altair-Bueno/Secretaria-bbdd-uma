@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24FF19E3-78AC-954E-EDCE-E5C863C280A7" name="PROFESOR">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>2F6587F5-4B9F-B763-87A5-799695FEF2F6</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="AB7F141C-EB3E-80B3-0004-06E0C7350C9A">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>E80AB1E4-1E50-881A-84BD-FE41057A4996</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59257E7F-0F4F-F3E4-7535-A5319328783D" referredColumn="EE937B1D-88DF-0435-ED83-DED2CF1BE4E5"/>
+</associations>
+</Column>
+<Column name="CURSO_ACADEMICO" id="4AAAA337-8591-9F62-5918-18B92BB74ED3">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>CB621E0E-6E2B-4BF7-36C5-14AA4117CA9C</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULACION" id="A2DA98A7-7276-8312-A4BA-0C5A49913B60">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>7964F941-5329-3164-3522-139A785A1E91</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_ADMINISTRATIVA" id="7641FDA1-74C6-A4DE-B68F-D113DF1E62DE">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>1CFDBAD8-BA06-5078-F6B6-C039B972CB00</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_CODIGO_DEP" id="8C390E63-9AC1-DDBB-90EF-1321E9E606D3">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>1F308227-DD37-0B82-6638-90472109635F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB1461EE-1343-A1A7-5F30-68607D1404DD" referredColumn="EF866C45-BB56-379C-03BC-F99B1776AF2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F41D5A97-3BB4-7A42-0D85-0C17B6D9151E" name="PROFESOR_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>B7F7AC64-05B3-5EB9-C943-F29AA1C18C0C</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7F141C-EB3E-80B3-0004-06E0C7350C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FE1DB8C-6986-6E6B-65FA-A2542FEBEE8E" name="PROFESOR_C_U_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>A420C262-A157-DCE9-FD27-F0928AF6AF08</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7F141C-EB3E-80B3-0004-06E0C7350C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D61A6ED9-696E-8FC7-62D2-62C382093464" name="PROFESOR_DEPARTAMENTO_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>37EDB0D2-ABF9-E353-DE27-C9672E2A0E7F</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C390E63-9AC1-DDBB-90EF-1321E9E606D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

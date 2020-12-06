@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F57204E0-FC32-6564-0500-F554916CC635" name="DEPARTAMENTO">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>9044714C-66F6-BE1B-0953-EEE0185697B6</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DEP" id="EF866C45-BB56-379C-03BC-F99B1776AF2B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>BE93BAE2-62F8-6C61-74D0-E7D091E06E27</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DEP" id="B629D34D-50AC-BBB7-8DA3-F75E9DA68CED">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>AB96D93B-2D91-B1EE-9F1F-498432BF3087</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLF_DEP" id="29E6FAA1-55C6-2DAD-B5DF-DE87678D52B5">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>E07D1C72-38DC-DDF0-FECB-5F8DC2482B9A</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BF5A324-51FB-51C9-9223-98E07B6C809A" name="DEPARTAMENTO_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>C44204BD-8DEC-D1B6-4A5E-009903B92641</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF866C45-BB56-379C-03BC-F99B1776AF2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

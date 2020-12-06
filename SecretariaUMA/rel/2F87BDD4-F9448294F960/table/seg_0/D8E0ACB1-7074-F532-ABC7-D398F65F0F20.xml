@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8E0ACB1-7074-F532-ABC7-D398F65F0F20" name="COMPANEROS">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA_N_EXPEDIENTE" id="BD09435E-B08D-5027-9681-0AF14A6C4A08">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF2C5210-8F8F-9D3E-7B6A-BD5B4EF58E5A" referredColumn="6B5D00D8-9748-0BC4-21D2-0C1DDDE60B2B"/>
+</associations>
+</Column>
+<Column name="MATRICULA_DNI" id="EBEC5E8A-F1AD-5E39-0486-BE3FD13F17E0">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF2C5210-8F8F-9D3E-7B6A-BD5B4EF58E5A" referredColumn="623F71A1-2F45-355D-CF5B-A70BB66819B3"/>
+</associations>
+</Column>
+<Column name="GRUPO_CURSO" id="A38CE070-219D-C5E8-D1C0-ABC697DF193B">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58772F4D-6409-7947-73CE-7E6AF0727451" referredColumn="F2FA630B-9095-53DB-46EF-07CF1FC458D4"/>
+</associations>
+</Column>
+<Column name="GRUPO_NOMBRE_GRUPO" id="C05C11F7-871D-43FC-22B8-3BD9BA638D87">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58772F4D-6409-7947-73CE-7E6AF0727451" referredColumn="55383AE4-0146-3A3B-1B27-A21C1090D118"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D834BE7D-1654-8358-8D35-0F1616BA5A98" name="COMPANEROS_PK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD09435E-B08D-5027-9681-0AF14A6C4A08"/>
+<colUsage columnID="EBEC5E8A-F1AD-5E39-0486-BE3FD13F17E0"/>
+<colUsage columnID="A38CE070-219D-C5E8-D1C0-ABC697DF193B"/>
+<colUsage columnID="C05C11F7-871D-43FC-22B8-3BD9BA638D87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D0593A8-4108-37FB-0247-FBE7453A6789" name="COMPANEROS_MATRICULA_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>6318DA2B-2976-96DF-AA92-64F2D9D5A255</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD09435E-B08D-5027-9681-0AF14A6C4A08"/>
+<colUsage columnID="EBEC5E8A-F1AD-5E39-0486-BE3FD13F17E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C8CF35-8BCD-27EA-641F-991F143D5368" name="COMPANEROS_GRUPO_FK">
+<createdBy>Jota</createdBy>
+<createdTime>2020-12-06 17:16:00 UTC</createdTime>
+<generatorID>6318DA2B-2976-96DF-AA92-64F2D9D5A255</generatorID>
+<ownerDesignName>SecretariaUMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A38CE070-219D-C5E8-D1C0-ABC697DF193B"/>
+<colUsage columnID="C05C11F7-871D-43FC-22B8-3BD9BA638D87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
