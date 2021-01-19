@@ -6,4 +6,4 @@
 - [Enunciado del problema](Enunciado/)
 - [Modelo relacional Oracle Datamodeler](SecretariaUMA.dmd)
 
-![Diagrama final](DIAGRAMA.png)
+![Diagrama final](Diagrama.png)
